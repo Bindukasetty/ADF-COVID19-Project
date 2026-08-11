@@ -1,0 +1,21 @@
+{
+	"name": "coronavirus-project-adf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "0826bd75-c152-4959-929d-b12dfc495e90",
+		"tenantId": "bbe6fa90-47c8-47a1-8ea5-e67d87b594a7",
+		"userAssignedIdentities": {
+			"/subscriptions/16d05771-7f72-4310-8505-2bde48ca42ad/resourcegroups/rg-covid-reporting-adf/providers/Microsoft.ManagedIdentity/userAssignedIdentities/covid-hdi-identity": {
+				"clientId": "ef6db171-6b2d-46c4-8e9d-850ea2093ce8",
+				"principalId": "2a173a7f-c6ce-4e27-b9a6-7989cf41b58c"
+			}
+		}
+	}
+}
